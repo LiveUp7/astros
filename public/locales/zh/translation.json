@@ -1,0 +1,50 @@
+{
+	"hero": {
+		"title": "超高性能的网络开发!",
+		"subtitle": "释放网络的力量: Astro、Tailwind CSS 和 Alpine.js 合作无间,简化您的网络开发过程。",
+		"globe_title": "用简单高效的方式制作令人目眩的高性能网站",
+		"main_button_text": "在GitHub上下载", 
+		"secondary_button_text": "查看动画版本"
+	},
+	"hero_animated": {
+		"secondary_button_text": "查看基本版本"
+	},
+	"header": {
+		"features": "功能特性",
+		"pricing": "定价",
+		"blog": "博客", 
+		"contact": "联系方式",
+		"primary_button_text": "下载",
+		"secondary_button_text": "登录"
+	},
+	"features": {
+		"learn_more": "了解更多",
+		"title": "功能特性",
+		"subtitle": "完整的工具包",
+		"description": "Astro 是一款高性能的静态站点构建框架,它天然地整合了 Tailwind CSS 和 Alpine.js。它让您以简单高效的方式构建网站,而不会牺牲性能。",
+		"astro": "Astro 是专为速度而设计的全面性网络框架。您可以从任何地方获取内容,部署到任何地方,完全依靠您喜欢的 UI 组件和库。", 
+		"alpine": "Alpine 是一个坚固而微小的工具,用于直接在标记中组合行为。想象它是一个jQuery用于现代网络。只需添加一个脚本标签即可开始使用。",
+		"tailwind": "一个实用第一的CSS框架,包括可以直接在标记中组合成任何设计的类。",
+		"localization": "一个Astro国际化i18next集成,以及一些实用组件帮助您翻译Astro网站!",
+		"light_dark_mode": "基于Tailwind类的浅色/深色模式",
+		"giscus": "使用GitHub讨论驱动的评论系统。让访客可以在您的网站上使用GitHub留下评论和回应!",
+		"decapcms": "面向Git工作流的开源内容管理系统",
+		"rss": "使用@astrojs/rss生成RSS订阅",
+		"articlegenerator": "使用AI自动生成文章内容"
+	},
+	"faq": {
+		"title": "常见问题解答"
+	},
+	"newsletter": {
+		"title": "订阅我们的新闻通讯",
+		"subtitle": "获得所有更新的通知",
+		"input_placeholder": "输入您的电子邮件",
+		"button_text": "订阅",
+		"privacy": "我们十分重视您数据的保护。请阅读我们的",
+		"privacy_link": "隐私政策。"
+	},
+	"blog": {
+		"prev": "上一页",
+		"next": "下一页"
+	}
+}
