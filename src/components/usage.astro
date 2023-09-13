@@ -1,0 +1,67 @@
+---
+import Cobe from "@components/cobe.astro";
+import Link from "@components/ui/link.astro";
+import abstractDottedGlobeIllustration from "assets/abstract-dotted-globe-illustration.png";
+import { Image } from "astro:assets";
+import { t } from "i18next";
+
+const { dynamic = false } = Astro.props;
+---
+
+<div class="bg-white sm:py-32 rounded-md">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+		<div class="mt-0 flow-root">
+			<div
+				class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+				<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+					<h3 id="tier-basic" class="text-base font-semibold leading-7 text-gray-900">{t("usage.left.title")}</h3>
+					<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+						<li class="flex gap-x-3">
+							<span class="">01</span>
+							{t("usage.left.content1")}
+						</li>
+						<li class="flex gap-x-3">
+							<span class="">02</span>
+							{t("usage.left.content2")}
+						</li>
+						<li class="flex gap-x-3">
+							<span class="">03</span>
+							{t("usage.left.content3")}
+						</li>
+						<li class="flex gap-x-3">
+							<span class="">04</span>
+							{t("usage.left.content4")}
+						</li>
+					</ul>
+				</div>
+				<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+					<h3 id="tier-essential" class="text-base font-semibold leading-7 text-gray-900"><1> {t("usage.middle.title")}</h3>
+					<p class="mt-6 flex items-baseline gap-x-1">
+						<span class="text-1xl font-bold tracking-tight text-gray-900"> {t("usage.middle.content1")} </span>
+					</p>
+					<p class="mt-4 text-sm font-semibold leading-6 text-gray-900">{t("usage.middle.content2")}</p>
+					<p class="mt-4 text-sm font-semibold leading-6 text-gray-900">{t("usage.middle.content3")}</p>
+					<ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+						<li class="flex gap-x-3">{t("usage.middle.content4")}</li>
+						<li class="flex gap-x-3">{t("usage.middle.content5")}</li>
+						<li class="flex gap-x-3"> {t("usage.middle.content6")}</li>
+					</ul>
+				</div>
+				<div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+					<h3 id="tier-growth" class="text-base font-semibold leading-7 text-gray-900"><2> {t("usage.right.title")}</h3>
+					<p class="mt-6 flex items-baseline gap-x-1">
+						<span class="text-2xl font-bold tracking-tight text-gray-900"> {t("usage.right.content1")} </span>
+					</p>
+					<p class="mt-10 text-sm font-semibold leading-6 text-gray-900">
+						<img
+							src="https://telegra.ph/file/9be83a18a87b7f1944456.png"
+							alt="Model wearing minimalist watch with black wristband and white watch face."
+							class="object-cover object-center group-hover:opacity-75 w-1/2"
+						/>
+					</p>
+					<p class="mt-4 text-sm font-semibold leading-6 text-gray-900">TKE1ceVn6wiMYuixFnonCcnV8e76cTLYq1</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

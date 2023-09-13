@@ -30,15 +30,15 @@
 	},
 	"faq": {
 		"title": "Frequently Asked Questions",
-		"sub":{
-			"title.how":"How to purchase number of times",
-			"description.how":"Fill in your estimated daily number of times transactions and transfer TRX/USDT payment to designation billing address.",
-			"title.when":"When will the energy arrive?",
-			"description.when":"After the payment is completed,the energy will be received within 6 second. In rare cases, there will be a delay of 30 to 60 seconds.",
-			"title.time":"How many orders can I have at the same time?",
-			"description.time":"Multiple purchases can be made under the same address, with no limits.",
-			"title.withdrawal":"Can I withdraw my order?",
-			"description.withdrawal":"The order does not support withdrawal."
+		"sub": {
+			"title.how": "How to purchase number of times",
+			"description.how": "Fill in your estimated daily number of times transactions and transfer TRX/USDT payment to designation billing address.",
+			"title.when": "When will the energy arrive?",
+			"description.when": "After the payment is completed,the energy will be received within 6 second. In rare cases, there will be a delay of 30 to 60 seconds.",
+			"title.time": "How many orders can I have at the same time?",
+			"description.time": "Multiple purchases can be made under the same address, with no limits.",
+			"title.withdrawal": "Can I withdraw my order?",
+			"description.withdrawal": "The order does not support withdrawal."
 		}
 	},
 	"newsletter": {
@@ -52,5 +52,28 @@
 	"blog": {
 		"prev": "Prev",
 		"next": "Next"
+	},
+	"usage": {
+		"left": {
+			"title": "Rental Energy - Notes",
+			"content1": "Please use a decentralized wallet for transfers, otherwise the energy cannot reach your account accurately.",
+			"content2": "The energy consumption depends on whether the recipient account has USDT. An account with USDT consumes 31895 energy, while one without consumes 64895 energy.",
+			"content3": "Please transfer the corresponding amount to the platform address. The platform will distribute the corresponding amount of energy to your payment account within 6 seconds after the transfer is completed.",
+			"content4": "If you don't know how to operate, you can click on the online customer service for 1-to-1 teaching!"
+		},
+		"middle": {
+			"title": "Calculate rental energy needs",
+			"content1": "Energy unit price (valid within 1 hour after distribution)",
+			"content2": "3 TRX ≈32000 energy",
+			"content3": "Each TRC20 USDT transaction consumes at least 31895 energy",
+			"content4": "For example, 5 USDT transfers are planned within the next hour",
+			"content5": "5 transactions x 3 TRX per transaction = 15 TRX",
+			"content6": "This saves about 52.5 TRX compared to direct transfer"
+		},
+		"right": {
+			"title": "Payment",
+			"content1": "Platform receipt address",
+			"content2": "TKE1ceVn6wiMYuixFnonCcnV8e76cTLYq1"
+		}
 	}
 }
