@@ -33,7 +33,17 @@
     "articlegenerator": "使用 AI 自動生成文章內容"
   },
   "faq": {
-    "title": "常見問題解答"
+    "title": "常見問題解答",
+    "sub":{
+      "title.how":"如何購買次數",
+      "description.how":"請在本頁站頭部中填寫購買信息,然後根據提示向平台賬戶轉入對應的TRX/USDT即可。",
+      "title.when":"支付成功後,能量什麼時候到賬?",
+      "description.when":"付款完成後,正常情況下能量會在6秒內到賬。由於廣播延遲等原因,極少數情況,會存在30到60秒的延遲。若沒收到能量,請聯繫客服處理。",
+      "title.time":"同一接收地址同時可以幾笔訂單?",
+      "description.time":"同一地址也可以多笔購買,不限制使用次數。",
+      "title.withdrawal":"訂單可以撤回嗎?",
+      "description.withdrawal":"當您向平台賬戶支付費用後,訂單不支持撤回。"
+      }
   },
   "newsletter": {
     "title": "訂閱我們的新聞通訊",

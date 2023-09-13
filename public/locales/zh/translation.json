@@ -15,7 +15,9 @@
 		"blog": "博客", 
 		"contact": "联系方式",
 		"primary_button_text": "下载",
-		"secondary_button_text": "登录"
+		"secondary_button_text": "登录",
+		"faq": "常见问题"
+
 	},
 	"features": {
 		"learn_more": "了解更多",
@@ -33,7 +35,17 @@
 		"articlegenerator": "使用AI自动生成文章内容"
 	},
 	"faq": {
-		"title": "常见问题解答"
+		"title": "常见问题解答",
+		"sub":{
+			"title.how":"如何购买次数",
+			"description.how":"请在本页站头部中填写购买信息，然后根据提示向平台账户转入对应的TRX/USDT即可。",
+			"title.when":"支付成功后，能量什么时候到账？",
+			"description.when":"付款完成后，正常情况下能量会在6秒内到账。由于广播延迟等原因，极少数情况，会存在30到60秒的延迟。若没收到能量，请联系客服处理。",
+			"title.time":"同一接收地址同时可以几笔订单？",
+			"description.time":"同一地址也可以多笔购买，不限制使用次数。",
+			"title.withdrawal":"订单可以撤回吗？",
+			"description.withdrawal":"当您向平台账户支付费用后，订单不支持撤回。"
+		}
 	},
 	"newsletter": {
 		"title": "订阅我们的新闻通讯",

@@ -4,6 +4,8 @@ import Button from "@components/ui/button.astro";
 import { Icon } from "astro-icon";
 import { localizePath } from "astro-i18next";
 import { t } from "i18next";
+import LanguageSelector from "@components/languageselector.astro";
+import ThemeSelector from "@components/themeselector.astro";
 
 export const menuitems = [
 	{
@@ -25,6 +27,10 @@ export const menuitems = [
 	{
 		title: "header.contact",
 		path: "/contact",
+	},
+	{
+		title: "header.faq",
+		path: "#faq",
 	},
 ];
 ---
@@ -70,7 +76,7 @@ export const menuitems = [
 		x-transition:leave-start="opacity-100 transform scale-100"
 		x-transition:leave-end="opacity-0 transform scale-90"
 		class="md:mt-0 lg:pl-8 md:items-center flex-grow pb-4 md:pb-0 flex-col gap-2 transition-all ease-out md:transition-none md:justify-center md:flex-row hidden">
-		<div class="flex flex-col flex-grow text-center gap-2 md:justify-center md:items-center md:flex md:flex-row md:mx-auto">
+		<div class="flex flex-col flex-right text-center gap-2 md:justify-center md:items-center md:flex md:flex-row md:mx-auto">
 			{
 				menuitems.map((item) =>
 					item.children && item.children.length ? (
@@ -151,13 +157,16 @@ export const menuitems = [
 				)
 			}
 		</div>
-		<!-- <div class="mt-4 md:mt-0 flex flex-col md:flex-row gap-4">
-			<Link href="/login" style="outline" class="md:px-3 md:py-2 leading-6">
-				{t("header.secondary_button_text")}
-			</Link>
-			<Link href="https://github.com/zankhq/astros" class="md:px-3 md:py-2 leading-6">
-				{t("header.primary_button_text")}
-			</Link>
-		</div> -->
+		<div class="mt-4 md:mt-0 flex flex-col md:flex-row gap-4">
+				<LanguageSelector
+					showFlag={false}
+					languageMapping={{ en: "English", zh: "中文简体", hant: "正體中文",  it: "Italiano" }}
+					class="appearance-none py-1 px-2 rounded bg-slate-100 dark:bg-stone-950"
+				/>
+				<ThemeSelector />
+
+		</div>
+
 	</nav>
+	
 </div>
