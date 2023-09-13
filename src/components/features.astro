@@ -7,59 +7,23 @@ import { t } from "i18next";
 
 const features = [
 	{
-		title: "Astro",
+		title: "features.substitle.safe",
 		description: "features.astro",
 		icon: "bx:bxs-briefcase",
-		url: "https://astro.build/",
-	},
-	{
-		title: "Alpine",
-		description: "features.alpine",
-		icon: "bx:bxs-window-alt",
-		url: "https://alpinejs.dev/",
-	},
-	{
-		title: "Tailwind",
-		description: "features.tailwind",
-		icon: "bx:bxs-data",
-		url: "https://tailwindcss.com/",
-	},
-	{
-		title: "Localization",
-		description: "features.localization",
-		icon: "bx:bxs-bot",
-		url: "https://github.com/yassinedoghri/astro-i18next",
-	},
-	{
-		title: "Ligh/Dark Mode",
-		description: "features.light_dark_mode",
-		icon: "bx:bxs-file-find",
-		url: "https://tailwindcss.com/docs/dark-mode",
-	},
-	{
-		title: "Giscus",
-		description: "features.giscus",
-		icon: "bx:bxs-user",
-		url: "https://giscus.app/",
-	},
-	{
-		title: "Decap CMS",
-		description: "features.decapcms",
-		icon: "bx:bxs-user",
-		url: "https://decapcms.org/",
-	},
-	{
-		title: "RSS feed",
-		description: "features.rss",
-		icon: "bx:bxs-user",
-		url: "/rss.xml",
-	},
-	{
-		title: "Article generator (soon)",
-		description: "features.articlegenerator",
-		icon: "bx:bxs-user",
 		url: "#",
 	},
+	{
+		title: "features.substitle.economic",
+		description: "features.alpine",
+		icon: "bx:bxs-window-alt",
+		url: "#",
+	},
+	{
+		title: "features.substitle.efficient",
+		description: "features.tailwind",
+		icon: "bx:bxs-data",
+		url: "#",
+	}
 ];
 ---
 
@@ -80,18 +44,10 @@ const features = [
 							<div class="h-5 w-5 flex-none text-black dark:text-white">
 								<Icon name={item.icon} />
 							</div>
-							{item.title}
+							{t(item.title)}
 						</dt>
 						<dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-900 dark:text-gray-100">
 							<p class="flex-auto">{t(item.description)}</p>
-							<p class="mt-6">
-								<Link href={item.url} style="muted" size="xs" class="leading-6 text-left text-black dark:text-white">
-									{t("features.learn_more")}{" "}
-									<span class="pl-1 text-black dark:text-white" aria-hidden="true">
-										→
-									</span>
-								</Link>
-							</p>
 						</dd>
 					</div>
 				))

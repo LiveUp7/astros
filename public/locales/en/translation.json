@@ -1,7 +1,7 @@
 {
 	"hero": {
-		"title": "Supercharged web development!",
-		"subtitle": "Unleashing the Power of the Web: Combines Astro, Tailwind CSS and Alpine.js to Streamline Your Web Development Process.",
+		"title": "About FreeTransferFee!",
+		"subtitle": "The FreeTransferFee platform is an energy exchange platform in wave field ecology. Our goal is to reduce the TRX fee required for wave traders to consume energy. The exchange process is simple and fast, with a favorable price. We provide you with a safer and more efficient energy exchange service 24 hours a day.",
 		"globe_title": "Craft Stunning, High-Performance Websites with Ease and Speed",
 		"main_button_text": "Download on github",
 		"secondary_button_text": "Go to animated version"
@@ -21,17 +21,12 @@
 	"features": {
 		"learn_more": "Learn more",
 		"title": "Features",
-		"subtitle": "All the tools you need",
-		"description": "Astro is a high-performance static site builder that seamlessly integrates with Tailwind CSS and Alpine.js. It allows you to build websites with ease and speed, without sacrificing on performance.",
-		"astro": "Astro is the all-in-one web framework designed for speed. Pull your content from anywhere and deploy everywhere, all powered by your favorite UI components and libraries.",
-		"alpine": "Alpine is a rugged, minimal tool for composing behavior directly in your markup. Think of it like jQuery for the modern web. Plop in a script tag and get going.",
-		"tailwind": "A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.",
-		"localization": "An astro integration of i18next + some utility components to help you translate your astro websites!",
-		"light_dark_mode": "Light/Dark mode based on tailwind classes",
-		"giscus": "A comments system powered by GitHub Discussions. Let visitors leave comments and reactions on your website via GitHub!",
-		"decapcms": "Open source content management for your Git workflow",
-		"rss": "RSS feed generato da @astrojs/rss",
-		"articlegenerator": "Use AI to generate your articles posts"
+		"subtitle": "Transfer Times Purchase",
+		"description": "Reasonable price, real-time transfer",
+		"astro": "Solve the problem of excessive TRX fees，Money Saving Expert for Tron Users",
+		"alpine": "Applicable to USDT, contract transfer, etc",
+		"tailwind": "Fast and convenient",
+		"substitle": { "safe": "SAFE", "economic": "Economic", "efficient": "EFFICIENT" }
 	},
 	"faq": {
 		"title": "Frequently Asked Questions",
