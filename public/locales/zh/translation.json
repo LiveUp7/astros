@@ -61,19 +61,18 @@
 			"content3": "请往平台地址转入对应的金额。转账完成后，平台将在6秒内派发对应数量的能量到您的支付账户中。",
 			"content4": "如不会操作使用，可点击在线客服进行1对1教学！"
 		},
-		"middle":{
-			"title":"计算能量租赁需求",
-			"content1":"能量单价(派发后1小时内有效）",
-			"content2":"3 TRX ≈32000能量",
-			"content3":"TRC20转账USDT每笔交易至少消耗31895能量",
-			"content4":"如：未来1小时内预计转账5笔USDT应转账",
-			"content5":"每笔 3 TRX × 5笔 = 15 TRX",
-			"content6":"比原来直接转账，节省约 52.5 TRX"
+		"middle": {
+			"title": "计算能量租赁需求",
+			"content1": "能量单价(派发后1小时内有效）",
+			"content2": "3 TRX ≈32000能量",
+			"content3": "TRC20转账USDT每笔交易至少消耗31895能量",
+			"content4": "如：未来1小时内预计转账5笔USDT应转账",
+			"content5": "每笔 3 TRX × 5笔 = 15 TRX",
+			"content6": "比原来直接转账，节省约 52.5 TRX"
 		},
-		"right":{
-			"title":"支付",
-			"content1":"平台收款地址",
-			"content2":"TKE1ceVn6wiMYuixFnonCcnV8e76cTLYq1"
+		"right": {
+			"title": "支付",
+			"content1": "平台收款地址"
 		}
 	}
 }

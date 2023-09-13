@@ -72,8 +72,7 @@
 		},
 		"right": {
 			"title": "Payment",
-			"content1": "Platform receipt address",
-			"content2": "TKE1ceVn6wiMYuixFnonCcnV8e76cTLYq1"
+			"content1": "Platform receipt address"
 		}
 	}
 }

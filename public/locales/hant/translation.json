@@ -1,60 +1,78 @@
 {
-  "hero": {
-    "title": "超高效能的網路開發!", 
-    "subtitle": "釋放網路的力量: Astro、Tailwind CSS 和 Alpine.js 合作無間,簡化您的網路開發過程。",
-    "globe_title": "用簡單高效的方式製作令人目眩的高性能網站",
-    "main_button_text": "在GitHub上下載",
-    "secondary_button_text": "查看動畫版本"
-  },
-  "hero_animated": {
-    "secondary_button_text": "查看基本版本"  
-  },
-  "header": {
-    "features": "功能特性",
-    "pricing": "定價",
-    "blog": "部落格",
-    "contact": "聯絡方式", 
-    "primary_button_text": "下載",
-    "secondary_button_text": "登入"
-  },
-  "features": {
-    "learn_more": "了解更多",
-    "title": "功能特性",
-    "subtitle": "完整的工具包",
-    "description": "Astro 是一款高效能的靜態網站建構框架,它天然地整合了 Tailwind CSS 和 Alpine.js。它讓您以簡單高效的方式建構網站,而不會犧牲效能。",
-    "astro": "Astro 是專為速度而設計的全面性網路框架。您可以從任何地方取得內容,部署到任何地方,完全依靠您喜歡的 UI 元件和庫。",
-    "alpine": "Alpine 是一個堅固而微小的工具,用於直接在標籤中合成行為。想像它是一個 jQuery 用於現代網路。只需添加一個腳本標籤即可開始使用。", 
-    "tailwind": "一個實用優先的CSS框架,包括可以直接在標籤中合成任何設計的類。",
-    "localization": "一個Astro國際化 i18next 整合,以及一些實用元件幫助您翻譯 Astro 網站!",
-    "light_dark_mode": "基於 Tailwind 類的淺色/深色模式",
-    "giscus": "使用 GitHub 討論驅動的評論系統。讓訪客可以在您的網站上使用 GitHub 留下評論和回應!",
-    "decapcms": "面向 Git 工作流的開源內容管理系統",
-    "rss": "使用 @astrojs/rss 生成 RSS 訂閱",
-    "articlegenerator": "使用 AI 自動生成文章內容"
-  },
-  "faq": {
-    "title": "常見問題解答",
-    "sub":{
-      "title.how":"如何購買次數",
-      "description.how":"請在本頁站頭部中填寫購買信息,然後根據提示向平台賬戶轉入對應的TRX/USDT即可。",
-      "title.when":"支付成功後,能量什麼時候到賬?",
-      "description.when":"付款完成後,正常情況下能量會在6秒內到賬。由於廣播延遲等原因,極少數情況,會存在30到60秒的延遲。若沒收到能量,請聯繫客服處理。",
-      "title.time":"同一接收地址同時可以幾笔訂單?",
-      "description.time":"同一地址也可以多笔購買,不限制使用次數。",
-      "title.withdrawal":"訂單可以撤回嗎?",
-      "description.withdrawal":"當您向平台賬戶支付費用後,訂單不支持撤回。"
-      }
-  },
-  "newsletter": {
-    "title": "訂閱我們的新聞通訊",
-    "subtitle": "獲得所有更新的通知",
-    "input_placeholder": "輸入您的電子郵件",
-    "button_text": "訂閱",
-    "privacy": "我們十分重視您數據的保護。請閱讀我們的",
-    "privacy_link": "隱私政策。"
-  },
-  "blog": {
-    "prev": "上一頁",
-    "next": "下一頁"
-  }
+	"hero": {
+		"title": "FreeTransferFee 平台簡介",
+		"subtitle": "FreeTransferFee 平台是波場生態中的能量兌換平台。我們的宗旨是為波場交易者降低能量消耗所需TRX費用。兑換流程簡單快速,價格優惠,24小時為您提供更安全且高效的能量兌換服務。",
+		"globe_title": "用簡單高效的方式製作令人目眩的高性能網站",
+		"main_button_text": "在GitHub上下載",
+		"secondary_button_text": "查看動畫版本"
+	},
+	"hero_animated": {
+		"secondary_button_text": "查看基本版本"
+	},
+	"header": {
+		"features": "功能特性",
+		"pricing": "定價",
+		"blog": "博客",
+		"contact": "聯繫方式",
+		"primary_button_text": "下載",
+		"secondary_button_text": "登入",
+		"faq": "常見問題"
+	},
+	"features": {
+		"learn_more": "了解更多",
+		"title": "功能特性",
+		"subtitle": "TRON 轉帳次數購買",
+		"description": "簡單方便 幫你省錢",
+		"astro": "解決 TRX 手續費過高問題,Tron 波場用戶必備省錢專家",
+		"alpine": "適用USDT、合約轉帳、部署合約等",
+		"tailwind": "快捷方便,只需轉帳即可兌換能量",
+		"substitle": { "safe": "安全", "economic": "經濟", "efficient": "高效" }
+	},
+	"faq": {
+		"title": "常見問題解答",
+		"sub": {
+			"title.how": "如何購買次數",
+			"description.how": "請在本頁站頭部中填寫購買信息,然後根據提示向平台賬戶轉入對應的TRX/USDT即可。",
+			"title.when": "支付成功後,能量什麼時候到賬?",
+			"description.when": "付款完成後,正常情況下能量會在6秒內到賬。由於廣播延遲等原因,極少數情況,會存在30到60秒的延遲。若沒收到能量,請聯繫客服處理。",
+			"title.time": "同一接收地址同時可以幾筆訂單?",
+			"description.time": "同一地址也可以多筆購買,不限制使用次數。",
+			"title.withdrawal": "訂單可以撤回嗎?",
+			"description.withdrawal": "當您向平台賬戶支付費用後,訂單不支持撤回。"
+		}
+	},
+	"newsletter": {
+		"title": "訂閱我們的新聞通訊",
+		"subtitle": "獲得所有更新的通知",
+		"input_placeholder": "輸入您的電子郵件",
+		"button_text": "訂閱",
+		"privacy": "我們十分重視您數據的保護。請閱讀我們的",
+		"privacy_link": "隱私政策。"
+	},
+	"blog": {
+		"prev": "上一頁",
+		"next": "下一頁"
+	},
+	"usage": {
+		"left": {
+			"title": "租賃能量 - 注意事項",
+			"content1": "請使用去中心化錢包進行轉帳,否則能量無法準確到達您的賬戶。",
+			"content2": "能量消耗量取決於收款方賬戶是否有USDT,賬戶有USDT消耗31895能量,若無則需消耗64895能量。",
+			"content3": "請往平台地址轉入對應的金額。轉帳完成後,平台將在6秒內派發對應數量的能量到您的支付賬戶中。",
+			"content4": "如不會操作使律,可點擊線上客服進行1對1教學!"
+		},
+		"middle": {
+			"title": "計算能量租賃需求",
+			"content1": "能量單價(派發後1小時內有效)",
+			"content2": "3 TRX ≈32000能量",
+			"content3": "TRC20轉帳USDT每筆交易至少消耗31895能量",
+			"content4": "如:未來1小時內預計轉帳5筆USDT應轉帳",
+			"content5": "每筆 3 TRX × 5筆 = 15 TRX",
+			"content6": "比原來直接轉帳,節省約 52.5 TRX"
+		},
+		"right": {
+			"title": "支付",
+			"content1": "平台收款地址"
+		}
+	}
 }

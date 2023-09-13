@@ -1,13 +1,13 @@
 {
 	"hero": {
-		"title": "Sviluppo web potenziato!",
-		"subtitle": "Liberare il Potere del Web: Combina Astro, Tailwind CSS e Alpine.js per Semplificare il Tuo Processo di Sviluppo Web.",
-		"globe_title": "Crea Siti Web Sorprendenti ad Alte Prestazioni con Facilità e Velocità.",
-		"main_button_text": "Scarica su github",
-		"secondary_button_text": "Vai a versione animata"
+		"title": "Presentazione di FreeTransferFee",
+		"subtitle": "FreeTransferFee è una piattaforma di scambio di energia nell'ecosistema Tron. Il nostro obiettivo è ridurre i costi TRX richiesti per l'acquisto di energia per i trader Tron. Il processo di scambio è semplice e veloce, i prezzi sono vantaggiosi e forniamo un servizio di scambio energia più sicuro ed efficiente 24 ore su 24.",
+		"globe_title": "Creare siti web ad alte prestazioni in modo semplice ed efficiente",
+		"main_button_text": "Scarica da GitHub",
+		"secondary_button_text": "Visualizza versione animata"
 	},
 	"hero_animated": {
-		"secondary_button_text": "Vai a versione base"
+		"secondary_button_text": "Visualizza versione base"
 	},
 	"header": {
 		"features": "Funzionalità",
@@ -15,36 +15,64 @@
 		"blog": "Blog",
 		"contact": "Contatti",
 		"primary_button_text": "Scarica",
-		"secondary_button_text": "Login"
+		"secondary_button_text": "Accedi",
+		"faq": "Domande frequenti"
 	},
 	"features": {
 		"learn_more": "Scopri di più",
 		"title": "Funzionalità",
-		"subtitle": "Tutti glil strumenti di cui hai bisogno",
-		"description": "Astro è un generatore di siti statici ad alte prestazioni che si integra perfettamente con Tailwind CSS e Alpine.js. Ti permette di costruire siti web con facilità e velocità, senza sacrificare le prestazioni.",
-		"astro": "Astro è il framework web all-in-one progettato per la velocità. Preleva i tuoi contenuti da qualsiasi luogo e distribuiscili ovunque, il tutto alimentato dai tuoi componenti UI e librerie preferiti.",
-		"alpine": "Alpine è uno strumento robusto e minimale per comporre comportamenti direttamente nel tuo markup. Pensalo come jQuery per il web moderno. Inserisci un tag script e inizia.",
-		"tailwind": "Un framework CSS basato su utility pieno di classi che possono essere composte per costruire qualsiasi design, direttamente nel tuo markup.",
-		"localization": "Un'integrazione di i18next con Astro + alcuni componenti utilità per aiutarti a tradurre i tuoi siti web Astro!",
-		"light_dark_mode": "Modalità Dark basata sulle classi di Tailwind.",
-		"giscus": "Un sistema di commenti alimentato da GitHub Discussions. Lascia che i visitatori lascino commenti e reazioni sul tuo sito web tramite GitHub!",
-		"decapcms": "Gestione dei contenuti open source per il tuo flusso di lavoro Git",
-		"rss": "RSS feed generato da @astrojs/rss",
-		"articlegenerator": "Usa l'inteligenza artificiale per generare gli articoli del tuo blog"
+		"subtitle": "Acquisto transazioni TRON",
+		"description": "Semplice e conveniente, ti fa risparmiare",
+		"astro": "Risolve il problema degli alti costi delle commissioni TRX, indispensabile per risparmiare come utente Tron",
+		"alpine": "Applicabile a USDT, transazioni smart contract, deploy di smart contract",
+		"tailwind": "Veloce e conveniente, basta un trasferimento per lo scambio energia",
+		"substitle": { "safe": "Sicuro", "economic": "Economico", "efficient": "Efficiente" }
 	},
 	"faq": {
-		"title": "Domande frequenti"
+		"title": "Risposte alle domande frequenti",
+		"sub": {
+			"title.how": "Come acquistare transazioni",
+			"description.how": "Si prega di compilare le informazioni sull'acquisto nella sezione superiore della pagina e quindi trasferire la corrispondente TRX / USDT sul conto piattaforma secondo le istruzioni.",
+			"title.when": "Quando viene accreditata l'energia dopo il pagamento?",
+			"description.when": "Dopo il pagamento, normalmente l'energia verrà accreditata entro 6 secondi. A causa di ritardi di diffusione e altre ragioni, in rari casi può esserci un ritardo di 30-60 secondi. In caso di mancato accredito, si prega di contattare l'assistenza clienti.",
+			"title.time": "Quante transazioni possono essere effettuate contemporaneamente sullo stesso indirizzo?",
+			"description.time": "Lo stesso indirizzo può effettuare più acquisti, senza limiti di utilizzo.",
+			"title.withdrawal": "Le transazioni possono essere annullate?",
+			"description.withdrawal": "Una volta effettuato il pagamento sul conto piattaforma, le transazioni non possono essere annullate."
+		}
 	},
 	"newsletter": {
-		"title": "Sottoscriviti alla nostra newsletter",
-		"subtitle": "Ricevi le notifiche per gli ultimi aggiornamenti e novità.",
+		"title": "Iscriviti alla nostra newsletter",
+		"subtitle": "Ricevi tutti gli aggiornamenti",
 		"input_placeholder": "Inserisci la tua email",
-		"button_text": "Sottoscriviti",
-		"privacy": "Ci importa della tua privacy. Leggi la nostra",
-		"privacy_link": "Privacy Policy."
+		"button_text": "Iscriviti",
+		"privacy": "Prestiamo la massima attenzione alla protezione dei tuoi dati. Leggi la nostra",
+		"privacy_link": "Informativa sulla privacy."
 	},
 	"blog": {
-		"prev": "Precedente",
-		"next": "Successiva"
+		"prev": "Pagina precedente",
+		"next": "Pagina successiva"
+	},
+	"usage": {
+		"left": {
+			"title": "Nozioni sul noleggio di energia",
+			"content1": "Si prega di utilizzare un portafoglio decentralizzato per i trasferimenti, altrimenti l'energia non potrà raggiungere il tuo account in modo accurato.",
+			"content2": "Il consumo di energia dipende dalla presenza o meno di USDT sul conto destinatario, un conto con USDT consuma 31895 energia, uno senza ne consuma 64895.",
+			"content3": "Si prega di trasferire l'importo corrispondente sul conto piattaforma. Dopo il completamento del trasferimento, la piattaforma accrediterà la corrispondente quantità di energia sul tuo conto di pagamento entro 6 secondi.",
+			"content4": "In caso di dubbi sul funzionamento, è possibile cliccare sull'assistenza clienti online per una guida uno a uno!"
+		},
+		"middle": {
+			"title": "Calcolo del fabbisogno di noleggio energia",
+			"content1": "Prezzo unitario dell'energia (valido entro 1 ora dall'erogazione)",
+			"content2": "3 TRX ≈32.000 energia",
+			"content3": "Ogni transazione TRC20 USDT consuma almeno 31.895 energia",
+			"content4": "Ad esempio, entro le prossime ore sono previste 5 transazioni USDT",
+			"content5": "Ogni transazione 3 TRX x 5 transazioni = 15 TRX",
+			"content6": "Rispetto a un trasferimento diretto, questo permette un risparmio di circa 52,5 TRX"
+		},
+		"right": {
+			"title": "Pagamento",
+			"content1": "Indirizzo di ricezione piattaforma"
+		}
 	}
 }
