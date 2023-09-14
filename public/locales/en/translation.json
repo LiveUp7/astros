@@ -74,5 +74,12 @@
 			"title": "Payment",
 			"content1": "Platform receipt address"
 		}
+	},
+	"wallet": {
+		"title": "Decentralized Wallet User Guide",
+		"description": "The following is a decentralized wallet that supports energy leasing and reduces transaction fees. Click on the corresponding wallet icon to view the text and image tutorial.",
+		"content1": "If your wallet is not listed or you have trouble understanding the instructions, please contact",
+		"content2": "our online customer service ",
+		"content3": "for one-on-one assistance!"
 	}
 }

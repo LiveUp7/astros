@@ -1,0 +1,53 @@
+---
+import Cobe from "@components/cobe.astro";
+import Link from "@components/ui/link.astro";
+import abstractDottedGlobeIllustration from "assets/abstract-dotted-globe-illustration.png";
+import { Image } from "astro:assets";
+import { t } from "i18next";
+
+const { dynamic = false } = Astro.props;
+---
+
+<div class="bg-white py-24 sm:py-32">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+		<div class="mx-auto max-w-2xl lg:max-w-none">
+			<div class="text-center">
+				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t("wallet.title")}</h2>
+				<p class="mt-4 text-lg leading-8 text-gray-600">
+					{t("wallet.description")}
+				</p>
+			</div>
+			<dl class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-6">
+				<div class="flex flex-col bg-gray-400/5 p-8">
+					<a href="http://trontrxgas.com/post/34.html"><img src="http://trontrxgas.com/imtoken.svg" alt="imtoken" /></a>
+				</div>
+				<div class="flex flex-col bg-gray-400/5 p-8">
+					<a href="http://trontrxgas.com/post/35.html"><img src="http://trontrxgas.com/bitpie.png" alt="比特派Bitpie" /></a>
+				</div>
+				<div class="flex flex-col bg-gray-400/5 p-8">
+					<a href="http://trontrxgas.com/post/36.html"><img src="http://trontrxgas.com/tp.png" alt="TP钱包Token Pocket" /></a>
+				</div>
+				<div class="flex flex-col bg-gray-400/5 p-8">
+					<a href="http://trontrxgas.com/post/26.html"><img src="http://trontrxgas.com/tronlink.png" alt="波宝钱包Tronlink" /></a>
+				</div>
+				<div class="flex flex-col bg-gray-400/5 p-8">
+					<a href="http://trontrxgas.com/post/38.html"><img src="http://trontrxgas.com/bitkeep.png" alt="Bitkeep钱包" /></a>
+				</div>
+				<div class="flex flex-col bg-gray-400/5 p-8">
+					<a href="http://trontrxgas.com/post/39.html"><img src="http://trontrxgas.com/trustwallet.png" alt="Trust Wallet" /></a>
+				</div>
+			</dl>
+			<div class="text-left">
+				<p class="mt-4 text-lg leading-8 text-gray-600">
+					{t("wallet.content1")}
+					<a href="https://t.me/FreeTransferFee" title="https://t.me/FreeTransferFee" target="blank" aria-label="https://t.me/FreeTransferFee" class="pl-3 pr-3">
+						<button
+							class="inline-flex items-center rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+							{t("wallet.content2")}
+						</button>
+					</a>{t("wallet.content3")}
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
