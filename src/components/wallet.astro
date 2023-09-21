@@ -4,6 +4,7 @@ import Link from "@components/ui/link.astro";
 import abstractDottedGlobeIllustration from "assets/abstract-dotted-globe-illustration.png";
 import { Image } from "astro:assets";
 import { t } from "i18next";
+import { localizePath } from "astro-i18next";
 
 const { dynamic = false } = Astro.props;
 ---
@@ -20,22 +21,22 @@ const { dynamic = false } = Astro.props;
 
 			 <dl class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-6">
 				<div class="flex flex-col bg-gray-400/5 p-8">
-					<a href="http://trontrxgas.com/post/34.html"><img src="http://trontrxgas.com/imtoken.svg" alt="imtoken" /></a>
+					<a href={localizePath("/blog/teaching-everyone-to-complete-a-trc20-usdt-transfer-transaction-on-imtoken-with-just-4-trx-as-the-transaction-fee")}><img src="/images/imtoken.svg" alt="imtoken" /></a>
 				</div>
 				<div class="flex flex-col bg-gray-400/5 p-8">
-					<a href="http://trontrxgas.com/post/35.html"><img src="http://trontrxgas.com/bitpie.png" alt="比特派Bitpie" /></a>
+					<a href="http://trontrxgas.com/post/35.html"><img src="/images/bitpie.png" alt="比特派Bitpie" /></a>
 				</div>
 				<div class="flex flex-col bg-gray-400/5 p-8">
-					<a href="http://trontrxgas.com/post/36.html"><img src="http://trontrxgas.com/tp.png" alt="TP钱包Token Pocket" /></a>
+					<a href="http://trontrxgas.com/post/36.html"><img src="/images/tp.png" alt="TP钱包Token Pocket" /></a>
 				</div>
 				<div class="flex flex-col bg-gray-400/5 p-8">
-					<a href="http://trontrxgas.com/post/26.html"><img src="http://trontrxgas.com/tronlink.png" alt="波宝钱包Tronlink" /></a>
+					<a href="http://trontrxgas.com/post/26.html"><img src="/images/tronlink.png" alt="波宝钱包Tronlink" /></a>
 				</div>
 				<div class="flex flex-col bg-gray-400/5 p-8">
-					<a href="http://trontrxgas.com/post/38.html"><img src="http://trontrxgas.com/bitkeep.png" alt="Bitkeep钱包" /></a>
+					<a href="http://trontrxgas.com/post/38.html"><img src="/images/bitkeep.png" alt="Bitkeep钱包" /></a>
 				</div>
 				<div class="flex flex-col bg-gray-400/5 p-8">
-					<a href="http://trontrxgas.com/post/39.html"><img src="http://trontrxgas.com/trustwallet.png" alt="Trust Wallet" /></a>
+					<a href="http://trontrxgas.com/post/39.html"><img src="/images/trustwallet.png" alt="Trust Wallet" /></a>
 				</div>
 			</dl> 
 
