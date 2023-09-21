@@ -3,3 +3,8 @@ export default {
   defaultLocale: "en",
   locales: ["en", , "zh", "it", "hant"],
 };
+
+
+/* 
+npx astro-i18next generate
+*/

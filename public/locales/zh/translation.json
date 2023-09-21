@@ -64,10 +64,10 @@
 		"middle": {
 			"title": "计算能量租赁需求",
 			"content1": "能量单价(派发后1小时内有效）",
-			"content2": "3 TRX ≈32000能量",
+			"content2": "4 TRX ≈32000能量",
 			"content3": "TRC20转账USDT每笔交易至少消耗31895能量",
 			"content4": "如：未来1小时内预计转账5笔USDT应转账",
-			"content5": "每笔 3 TRX × 5笔 = 15 TRX",
+			"content5": "每笔 4 TRX × 5笔 = 20 TRX",
 			"content6": "比原来直接转账，节省约 52.5 TRX"
 		},
 		"right": {
@@ -81,5 +81,6 @@
 		"content1": "如果没有您使用的钱包或者看不懂操作，可联系",
 		"content2": "在线客服",
 		"content3": "，我们提供一对一教学！"
-	}
+	},
+	"blog": { "imtoken": {"a":"aa"} }
 }

@@ -64,10 +64,10 @@
 		"middle": {
 			"title": "Calculate rental energy needs",
 			"content1": "Energy unit price (valid within 1 hour after distribution)",
-			"content2": "3 TRX ≈32000 energy",
+			"content2": "4 TRX ≈32000 energy",
 			"content3": "Each TRC20 USDT transaction consumes at least 31895 energy",
 			"content4": "For example, 5 USDT transfers are planned within the next hour",
-			"content5": "5 transactions x 3 TRX per transaction = 15 TRX",
+			"content5": "5 transactions x 4 TRX per transaction = 20 TRX",
 			"content6": "This saves about 52.5 TRX compared to direct transfer"
 		},
 		"right": {
