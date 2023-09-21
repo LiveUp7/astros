@@ -9,12 +9,12 @@ import { localizePath } from "astro-i18next";
 const { dynamic = false } = Astro.props;
 ---
 
-<div class="bg-white py-24 sm:py-32">
+<!-- <div class="bg-white py-24 sm:py-32"> -->
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:max-w-none">
 			<div class="text-center">
-				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t("wallet.title")}</h2>
-				<p class="mt-4 text-lg leading-8 text-gray-600">
+				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-black dark:text-white">{t("wallet.title")}</h2>
+				<p class="mt-4 text-lg leading-8 text-gray-600 text-black dark:text-white">
 					{t("wallet.description")}
 				</p>
 			</div>
@@ -41,14 +41,14 @@ const { dynamic = false } = Astro.props;
 			</dl> 
 
 			<div class="text-left">
-				<p class="mt-4 text-lg leading-8 text-gray-600">
+				<p class="mt-4 text-lg leading-8 text-gray-600 text-black dark:text-white">
 					{t("wallet.content1")}
 					<a
 						href="https://t.me/FreeTransferFee"
 						title="https://t.me/FreeTransferFee"
 						target="blank"
 						aria-label="https://t.me/FreeTransferFee"
-						class="pl-3 pr-3">
+						class="pl-3 pr-3 text-black dark:text-white">
 						<button
 							class="inline-flex items-center rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 							{t("wallet.content2")}
@@ -58,4 +58,4 @@ const { dynamic = false } = Astro.props;
 			</div>
 		</div>
 	</div>
-</div>
+<!-- </div> -->
