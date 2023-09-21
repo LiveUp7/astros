@@ -1,5 +1,5 @@
 {
-	"locale":"it",
+	"locale": "it",
 	"hero": {
 		"title": "Presentazione di FreeTransferFee",
 		"subtitle": "FreeTransferFee è una piattaforma di scambio di energia nell'ecosistema Tron. Il nostro obiettivo è ridurre i costi TRX richiesti per l'acquisto di energia per i trader Tron. Il processo di scambio è semplice e veloce, i prezzi sono vantaggiosi e forniamo un servizio di scambio energia più sicuro ed efficiente 24 ore su 24.",
@@ -75,5 +75,12 @@
 			"title": "Pagamento",
 			"content1": "Indirizzo di ricezione piattaforma"
 		}
+	},
+	"wallet": {
+		"title": "Guida utente al portafoglio decentralizzato",
+		"description": "Di seguito è riportato un portafoglio decentralizzato che supporta il leasing energetico e riduce le commissioni di transazione. Fai clic sull'icona del portafoglio corrispondente per visualizzare il tutorial di testo e immagini.",
+		"content1": "Se il tuo portafoglio non è elencato o hai problemi a capire le istruzioni, contatta",
+		"content2": "il nostro servizio clienti online",
+		"content3": "per assistenza personalizzata!"
 	}
 }
