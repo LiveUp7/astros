@@ -11,7 +11,7 @@ snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
   management system offering developers a seamless way to manage content for
   static site generators.
 publishDate: 2023-09-14 23:14
-category: Tutorials
+category: ImToken
 ---
 
 imtoken作为一款去中心化钱包，当然可以通过能量租赁方式降低USDT转账手续费。
