@@ -5,7 +5,7 @@ author: Free Transfer Fee
 tags:
     - BitKeep
 image:
-    src: /images/decapcms.png
+    src: /images/blog/bitkeep/bitkeep.png
     alt: Decap CMS
 snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
     management system offering developers a seamless way to manage content for

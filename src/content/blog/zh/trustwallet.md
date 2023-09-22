@@ -5,7 +5,7 @@ author: Free Transfer Fee
 tags:
     - Trust Wallet
 image:
-    src: /images/decapcms.png
+    src: /images/blog/trustwallet/trustwallet.png
     alt: Decap CMS
 snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
     management system offering developers a seamless way to manage content for
