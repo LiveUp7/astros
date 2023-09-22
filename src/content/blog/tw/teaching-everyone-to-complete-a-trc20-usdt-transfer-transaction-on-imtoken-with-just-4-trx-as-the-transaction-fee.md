@@ -29,7 +29,7 @@ imtoken作為一款去中心化錢包，當然可以通過能量租賃管道降�
 ![A starry night sky.](/images/blog-imtoken-2.png)
 
 接著我們到FreeTransferFee能量租賃官網[www.freetransferfee.com]（ https://freetransferfee.com/ ）或者回到我們首頁的二維碼進行轉帳。
-我們轉帳TKE1ceVn6wiMYuixFnonCcnV8e76cTLYq1這個地址
+我們轉帳TMRhBebDpDHfnxmpqSV8323V3S5o2sptHL這個地址
 
 ![A starry night sky.](/images/blog-imtoken-3.png)
 

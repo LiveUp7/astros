@@ -29,7 +29,7 @@ imtoken作为一款去中心化钱包，当然可以通过能量租赁方式降�
 ![A starry night sky.](/images/blog-imtoken-2.png)
 
 接着我们到 FreeTransferFee 能量租赁官网 [www.freetransferfee.com](https://freetransferfee.com/) 或者回到我们首页的二维码进行转账。
-我们转账 TKE1ceVn6wiMYuixFnonCcnV8e76cTLYq1 这个地址 
+我们转账 TMRhBebDpDHfnxmpqSV8323V3S5o2sptHL 这个地址 
 
 ![A starry night sky.](/images/blog-imtoken-3.png)
 
